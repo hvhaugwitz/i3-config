@@ -115,8 +115,12 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
-# move to the previously selected workspace
+# switch to the previously selected workspace
 bindsym $mod+Control+6 workspace back_and_forth
+
+# move workspace to the right/left output
+bindsym $mod+x move workspace to output right
+bindsym $mod+Shift+x move workspace to output left
 
 # audio controls
 bindsym XF86AudioPlay exec mocp --toggle-pause
