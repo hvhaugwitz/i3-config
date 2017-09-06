@@ -152,4 +152,7 @@ bar {
         font pango:monospace, Font Awesome 8
         tray_output primary
         position top
+        colors {
+            focused_background #123456
+        }
 }
