@@ -14,7 +14,8 @@ floating_modifier $mod
 workspace_layout tabbed
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec SHELL=/usr/bin/tmux i3-sensible-terminal
+bindsym $mod+Shift+Return exec SHELL=/bin/bash i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Mod1+Shift+4 kill
